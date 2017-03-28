@@ -30,7 +30,7 @@ import com.swisscom.api.sdk.payments.Pair;
 import java.util.Map;
 import java.util.List;
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-24T13:37:43.650+01:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-24T15:26:58.044+01:00")
 public class ApiKeyAuth implements Authentication {
   private final String location;
   private final String paramName;
