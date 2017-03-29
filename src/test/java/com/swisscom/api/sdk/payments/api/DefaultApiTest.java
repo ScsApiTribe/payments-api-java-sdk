@@ -27,8 +27,8 @@ package com.swisscom.api.sdk.payments.api;
 
 import com.swisscom.api.sdk.payments.ApiException;
 import com.swisscom.api.sdk.payments.model.PaymentRequest;
-import com.swisscom.api.sdk.payments.model.PaymentStatus;
 import com.swisscom.api.sdk.payments.model.Error;
+import com.swisscom.api.sdk.payments.model.PaymentStatus;
 import com.swisscom.api.sdk.payments.model.PaymentDetails;
 import com.swisscom.api.sdk.payments.model.PaymentsCollection;
 import org.junit.Test;

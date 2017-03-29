@@ -39,8 +39,8 @@ import com.google.gson.reflect.TypeToken;
 import java.io.IOException;
 
 import com.swisscom.api.sdk.payments.model.PaymentRequest;
-import com.swisscom.api.sdk.payments.model.PaymentStatus;
 import com.swisscom.api.sdk.payments.model.Error;
+import com.swisscom.api.sdk.payments.model.PaymentStatus;
 import com.swisscom.api.sdk.payments.model.PaymentDetails;
 import com.swisscom.api.sdk.payments.model.PaymentsCollection;
 
@@ -121,7 +121,7 @@ public class DefaultApi {
             });
         }
 
-        String[] localVarAuthNames = new String[] { "oauth_2_0_client_credentials", "oauth_2_0_authorization_code" };
+        String[] localVarAuthNames = new String[] { "oauth_2_0_authorization_code", "oauth_2_0_client_credentials" };
         return apiClient.buildCall(localVarPath, "POST", localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarAuthNames, progressRequestListener);
     }
 
@@ -243,7 +243,7 @@ public class DefaultApi {
             });
         }
 
-        String[] localVarAuthNames = new String[] { "oauth_2_0_client_credentials", "oauth_2_0_authorization_code" };
+        String[] localVarAuthNames = new String[] { "oauth_2_0_authorization_code", "oauth_2_0_client_credentials" };
         return apiClient.buildCall(localVarPath, "GET", localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarAuthNames, progressRequestListener);
     }
 
@@ -370,7 +370,7 @@ public class DefaultApi {
             });
         }
 
-        String[] localVarAuthNames = new String[] { "oauth_2_0_client_credentials", "oauth_2_0_authorization_code" };
+        String[] localVarAuthNames = new String[] { "oauth_2_0_authorization_code", "oauth_2_0_client_credentials" };
         return apiClient.buildCall(localVarPath, "GET", localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarAuthNames, progressRequestListener);
     }
 

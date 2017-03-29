@@ -71,13 +71,13 @@ public class DefaultApiExample {
     public static void main(String[] args) {
         ApiClient defaultClient = Configuration.getDefaultApiClient();
         
-        // Configure OAuth2 access token for authorization: oauth_2_0_client_credentials
-        OAuth oauth_2_0_client_credentials = (OAuth) defaultClient.getAuthentication("oauth_2_0_client_credentials");
-        oauth_2_0_client_credentials.setAccessToken("YOUR ACCESS TOKEN");
-
         // Configure OAuth2 access token for authorization: oauth_2_0_authorization_code
         OAuth oauth_2_0_authorization_code = (OAuth) defaultClient.getAuthentication("oauth_2_0_authorization_code");
         oauth_2_0_authorization_code.setAccessToken("YOUR ACCESS TOKEN");
+
+        // Configure OAuth2 access token for authorization: oauth_2_0_client_credentials
+        OAuth oauth_2_0_client_credentials = (OAuth) defaultClient.getAuthentication("oauth_2_0_client_credentials");
+        oauth_2_0_client_credentials.setAccessToken("YOUR ACCESS TOKEN");
 
         DefaultApi apiInstance = new DefaultApi();
         String sCSVersion = "sCSVersion_example"; // String | The version of the API, value must be \"**<<SCS-Version>>**\".  This header indicates which version of the API should serve the request. If the value of the header is missing or it indicates a wrong version, the API returns an error message. 
@@ -119,13 +119,6 @@ Class | Method | HTTP request | Description
 ## Documentation for Authorization
 
 Authentication schemes defined for the API:
-### oauth_2_0_client_credentials
-
-- **Type**: OAuth
-- **Flow**: application
-- **Authorizatoin URL**: 
-- **Scopes**: N/A
-
 ### oauth_2_0_authorization_code
 
 - **Type**: OAuth
@@ -134,6 +127,13 @@ Authentication schemes defined for the API:
 - **Scopes**: 
   - read-payment: Allows reading payments.
   - write-payment: Allows writing payments.
+
+### oauth_2_0_client_credentials
+
+- **Type**: OAuth
+- **Flow**: application
+- **Authorizatoin URL**: 
+- **Scopes**: N/A
 
 
 ## Recommendation

@@ -28,13 +28,13 @@ Method | HTTP request | Description
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
-// Configure OAuth2 access token for authorization: oauth_2_0_client_credentials
-OAuth oauth_2_0_client_credentials = (OAuth) defaultClient.getAuthentication("oauth_2_0_client_credentials");
-oauth_2_0_client_credentials.setAccessToken("YOUR ACCESS TOKEN");
-
 // Configure OAuth2 access token for authorization: oauth_2_0_authorization_code
 OAuth oauth_2_0_authorization_code = (OAuth) defaultClient.getAuthentication("oauth_2_0_authorization_code");
 oauth_2_0_authorization_code.setAccessToken("YOUR ACCESS TOKEN");
+
+// Configure OAuth2 access token for authorization: oauth_2_0_client_credentials
+OAuth oauth_2_0_client_credentials = (OAuth) defaultClient.getAuthentication("oauth_2_0_client_credentials");
+oauth_2_0_client_credentials.setAccessToken("YOUR ACCESS TOKEN");
 
 DefaultApi apiInstance = new DefaultApi();
 String sCSVersion = "sCSVersion_example"; // String | The version of the API, value must be \"**<<SCS-Version>>**\".  This header indicates which version of the API should serve the request. If the value of the header is missing or it indicates a wrong version, the API returns an error message. 
@@ -63,7 +63,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials), [oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code)
+[oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code), [oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials)
 
 ### HTTP request headers
 
@@ -89,13 +89,13 @@ Name | Type | Description  | Notes
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
-// Configure OAuth2 access token for authorization: oauth_2_0_client_credentials
-OAuth oauth_2_0_client_credentials = (OAuth) defaultClient.getAuthentication("oauth_2_0_client_credentials");
-oauth_2_0_client_credentials.setAccessToken("YOUR ACCESS TOKEN");
-
 // Configure OAuth2 access token for authorization: oauth_2_0_authorization_code
 OAuth oauth_2_0_authorization_code = (OAuth) defaultClient.getAuthentication("oauth_2_0_authorization_code");
 oauth_2_0_authorization_code.setAccessToken("YOUR ACCESS TOKEN");
+
+// Configure OAuth2 access token for authorization: oauth_2_0_client_credentials
+OAuth oauth_2_0_client_credentials = (OAuth) defaultClient.getAuthentication("oauth_2_0_client_credentials");
+oauth_2_0_client_credentials.setAccessToken("YOUR ACCESS TOKEN");
 
 DefaultApi apiInstance = new DefaultApi();
 String paymentId = "paymentId_example"; // String | The unique identifier of a payment transaction. This is the same identifier which is returned with the location header of the response in the POST payment.  The value of the URI parameter must not contain spaces and should be URL encoded. 
@@ -124,7 +124,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials), [oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code)
+[oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code), [oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials)
 
 ### HTTP request headers
 
@@ -150,13 +150,13 @@ Name | Type | Description  | Notes
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
-// Configure OAuth2 access token for authorization: oauth_2_0_client_credentials
-OAuth oauth_2_0_client_credentials = (OAuth) defaultClient.getAuthentication("oauth_2_0_client_credentials");
-oauth_2_0_client_credentials.setAccessToken("YOUR ACCESS TOKEN");
-
 // Configure OAuth2 access token for authorization: oauth_2_0_authorization_code
 OAuth oauth_2_0_authorization_code = (OAuth) defaultClient.getAuthentication("oauth_2_0_authorization_code");
 oauth_2_0_authorization_code.setAccessToken("YOUR ACCESS TOKEN");
+
+// Configure OAuth2 access token for authorization: oauth_2_0_client_credentials
+OAuth oauth_2_0_client_credentials = (OAuth) defaultClient.getAuthentication("oauth_2_0_client_credentials");
+oauth_2_0_client_credentials.setAccessToken("YOUR ACCESS TOKEN");
 
 DefaultApi apiInstance = new DefaultApi();
 String scn = "scn_example"; // String | The Swisscom customer number (SCN) that uniquely identifies a customer.  Performing the request with this query parameter returns the list of payment transactions made on the Swisscom bill of the customer represented by the identifier. 
@@ -189,7 +189,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials), [oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code)
+[oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code), [oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials)
 
 ### HTTP request headers
 
