@@ -5,7 +5,7 @@
   <artifactId>paymentsapi</artifactId>
   <packaging>jar</packaging>
   <name>paymentsapi</name>
-  <version>1.0.0</version>
+  <version>5.0.14</version>
   <scm>
     <connection>scm:git:git@github.com:swagger-api/swagger-mustache.git</connection>
     <developerConnection>scm:git:git@github.com:swagger-api/swagger-codegen.git</developerConnection>
