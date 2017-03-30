@@ -34,7 +34,7 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * PaymentRequestPayerId
  */
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-29T13:56:31.498+02:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-30T09:41:40.222+02:00")
 public class PaymentRequestPayerId   {
   @SerializedName("billingProfile")
   private String billingProfile = null;
