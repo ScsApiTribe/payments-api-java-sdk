@@ -25,7 +25,7 @@
 
 package com.swisscom.api.sdk.payments;
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-30T09:41:40.222+02:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-30T10:17:02.666+02:00")
 public class Pair {
     private String name = "";
     private String value = "";
