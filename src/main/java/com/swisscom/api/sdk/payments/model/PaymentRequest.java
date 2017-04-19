@@ -36,7 +36,7 @@ import java.math.BigDecimal;
 /**
  * PaymentRequest
  */
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-30T11:17:28.151+02:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-04-19T11:47:30.728+02:00")
 public class PaymentRequest   {
   @SerializedName("amount")
   private BigDecimal amount = null;
