@@ -28,7 +28,7 @@ Add this dependency to your project's POM:
 <dependency>
     <groupId>com.swisscom.api.sdk.payments</groupId>
     <artifactId>paymentsapi</artifactId>
-    <version>5.0.15</version>
+    <version>5.0.16</version>
     <scope>compile</scope>
 </dependency>
 ```
@@ -38,7 +38,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.swisscom.api.sdk.payments:paymentsapi:5.0.15"
+compile "com.swisscom.api.sdk.payments:paymentsapi:5.0.16"
 ```
 
 ### Others
@@ -49,7 +49,7 @@ At first generate the JAR by executing:
 
 Then manually install the following JARs:
 
-* target/paymentsapi-5.0.15.jar
+* target/paymentsapi-5.0.16.jar
 * target/lib/*.jar
 
 ## Getting Started
