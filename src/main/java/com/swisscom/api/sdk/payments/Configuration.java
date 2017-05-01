@@ -25,7 +25,7 @@
 
 package com.swisscom.api.sdk.payments;
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-04-25T11:35:36.776+02:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-05-01T15:57:25.433+02:00")
 public class Configuration {
     private static ApiClient defaultApiClient = new ApiClient();
 
